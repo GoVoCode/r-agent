@@ -1,0 +1,11 @@
+---
+alwaysApply: true
+---
+donot write verbose code
+use creational, behavioural and structural design patterns.
+use stratergy pattern where necessary.
+Donot write bloated comments and donot generate usage, description and design docs in the base dir, instead if want to create docs for bettern understanding add them in .cursor dir for better llm understanding. Ask explicit instruction for this
+use fastapi python backend and streamlit front end.
+Use openai-agent sdk for creating agents and deciding handoff and function calls. Use the documentation to understand how it works
+Donot create a complex bloated codebase first try to understand the user requirement and only build considering the current usecase
+Always ask clarifying questions before building somethings new. And donot start building until specific instruction is given by the user in the clarifying questions
